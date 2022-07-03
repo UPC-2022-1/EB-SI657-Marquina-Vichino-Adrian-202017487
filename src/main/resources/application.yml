@@ -1,0 +1,42 @@
+server:
+  port: 8891
+  error:
+    include-stacktrace: never
+    include-message: always
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+    operations-sorter: alpha
+logging:
+  leve:
+    org:
+      hibernate:
+        SQL: DEBUG
+        type: TRACE
+spring:
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+      settings:
+        webAllowOthers: true
+        trace: false
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:eb-202017487;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+    username: u202017487
+    password:
+  jpa:
+    open-in-view: false
+    database: h2
+    hibernate:
+      ddl-auto: update
+    show_sql: true
+    database-platform: org.hibernate.dialect.H2Dialect
+    properties:
+      hibernate:
+        show_sql: false
+        use_sql_comments: false
+        format_sql: false
+  main:
+    allow-circular-references: true
