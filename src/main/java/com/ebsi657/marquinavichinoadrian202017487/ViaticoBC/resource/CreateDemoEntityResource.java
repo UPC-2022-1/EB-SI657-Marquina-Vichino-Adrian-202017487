@@ -1,4 +1,4 @@
-package com.ebsi657.marquinavichinoadrian202017487.demo.resource;
+package com.ebsi657.marquinavichinoadrian202017487.ViaticoBC.resource;
 import lombok.*;
 
 import javax.validation.constraints.NotBlank;

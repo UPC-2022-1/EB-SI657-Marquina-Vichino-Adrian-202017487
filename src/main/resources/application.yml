@@ -1,8 +1,11 @@
 server:
   port: 8891
   error:
+    path: /error
     include-stacktrace: never
     include-message: always
+    whitelabel:
+      enabled: false
 springdoc:
   swagger-ui:
     path: /swagger-ui.html
@@ -23,9 +26,9 @@ spring:
         trace: false
   datasource:
     driver-class-name: org.h2.Driver
-    url: jdbc:h2:mem:eb-202017487;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+    url: jdbc:h2:file:./data/eb-202017487;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
     username: u202017487
-    password:
+    password: u202017487
   jpa:
     open-in-view: false
     database: h2

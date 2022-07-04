@@ -1,4 +1,4 @@
-package com.ebsi657.marquinavichinoadrian202017487.demo.domain.model.entity;
+package com.ebsi657.marquinavichinoadrian202017487.ViaticoBC.domain.model.entity;
 
 import lombok.*;
 
@@ -8,6 +8,7 @@ import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
+@ToString
 @Getter
 @Setter
 @With
@@ -21,14 +22,11 @@ public class Viatico {
 	private Long id;
 
 	@NotNull
-	@NotBlank
 	@Min(0)
 	@Column()
 	private Long monto;
 
 	@NotNull
-	@NotBlank
-	@Size(min = 8, max = 8)
 	@OneToOne(fetch = FetchType.EAGER)
 	@JoinColumn(name = "trabajador_id", nullable = false)
 	private Trabajador trabajador;

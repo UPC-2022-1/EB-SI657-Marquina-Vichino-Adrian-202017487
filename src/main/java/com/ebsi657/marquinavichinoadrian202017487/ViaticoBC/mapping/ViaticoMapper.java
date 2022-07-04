@@ -1,9 +1,9 @@
-package com.ebsi657.marquinavichinoadrian202017487.demo.mapping;
+package com.ebsi657.marquinavichinoadrian202017487.ViaticoBC.mapping;
 
-import com.ebsi657.marquinavichinoadrian202017487.demo.domain.model.entity.Viatico;
-import com.ebsi657.marquinavichinoadrian202017487.demo.resource.CreateViaticoResource;
-import com.ebsi657.marquinavichinoadrian202017487.demo.resource.ViaticoResource;
-import com.ebsi657.marquinavichinoadrian202017487.demo.resource.UpdateViaticoResource;
+import com.ebsi657.marquinavichinoadrian202017487.ViaticoBC.domain.model.entity.Viatico;
+import com.ebsi657.marquinavichinoadrian202017487.ViaticoBC.resource.CreateViaticoResource;
+import com.ebsi657.marquinavichinoadrian202017487.ViaticoBC.resource.ViaticoResource;
+import com.ebsi657.marquinavichinoadrian202017487.ViaticoBC.resource.UpdateViaticoResource;
 import com.ebsi657.marquinavichinoadrian202017487.shared.mapping.EnhancedModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;

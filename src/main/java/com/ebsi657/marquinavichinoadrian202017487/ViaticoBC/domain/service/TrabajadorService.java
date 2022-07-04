@@ -1,6 +1,6 @@
-package com.ebsi657.marquinavichinoadrian202017487.demo.domain.service;
+package com.ebsi657.marquinavichinoadrian202017487.ViaticoBC.domain.service;
 
-import com.ebsi657.marquinavichinoadrian202017487.demo.domain.model.entity.Trabajador;
+import com.ebsi657.marquinavichinoadrian202017487.ViaticoBC.domain.model.entity.Trabajador;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.ResponseEntity;
@@ -13,6 +13,8 @@ public interface TrabajadorService {
 	Page<Trabajador> getAll(Pageable pageable);
 
 	Trabajador getById(Long trabajadorId);
+	Trabajador getByCode(String code);
+	Trabajador getByName(String name);
 
 	Trabajador create(Trabajador trabajador);
 

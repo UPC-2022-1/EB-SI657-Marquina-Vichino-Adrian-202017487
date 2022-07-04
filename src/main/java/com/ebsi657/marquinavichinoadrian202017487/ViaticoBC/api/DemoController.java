@@ -1,10 +1,10 @@
-package com.ebsi657.marquinavichinoadrian202017487.demo.api;
+package com.ebsi657.marquinavichinoadrian202017487.ViaticoBC.api;
 
-import com.ebsi657.marquinavichinoadrian202017487.demo.domain.service.DemoService;
-import com.ebsi657.marquinavichinoadrian202017487.demo.mapping.DemoMapper;
-import com.ebsi657.marquinavichinoadrian202017487.demo.resource.CreateDemoEntityResource;
-import com.ebsi657.marquinavichinoadrian202017487.demo.resource.DemoEntityResource;
-import com.ebsi657.marquinavichinoadrian202017487.demo.resource.UpdateDemoEntityResource;
+import com.ebsi657.marquinavichinoadrian202017487.ViaticoBC.domain.service.DemoService;
+import com.ebsi657.marquinavichinoadrian202017487.ViaticoBC.mapping.DemoMapper;
+import com.ebsi657.marquinavichinoadrian202017487.ViaticoBC.resource.CreateDemoEntityResource;
+import com.ebsi657.marquinavichinoadrian202017487.ViaticoBC.resource.DemoEntityResource;
+import com.ebsi657.marquinavichinoadrian202017487.ViaticoBC.resource.UpdateDemoEntityResource;
 import org.springframework.web.bind.annotation.RequestMapping;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Content;

@@ -1,4 +1,4 @@
-package com.ebsi657.marquinavichinoadrian202017487.demo.domain.model.entity;
+package com.ebsi657.marquinavichinoadrian202017487.ViaticoBC.domain.model.entity;
 
 import lombok.*;
 
@@ -7,6 +7,7 @@ import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
+@ToString
 @Getter
 @Setter
 @With
@@ -29,7 +30,7 @@ public class Trabajador {
 	@NotBlank
 	@Size(min = 8, max = 8)
 	@Column(unique = true)
-	private String codigo;
+	private String code;
 
 	@NotNull
 	@NotBlank
@@ -42,4 +43,8 @@ public class Trabajador {
 	@Size(max = 60)
 	@Column()
 	private String especialidad;
+
+	public Trabajador(Long id){
+		this.id = id;
+	}
 }

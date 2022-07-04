@@ -1,4 +1,4 @@
-package com.ebsi657.marquinavichinoadrian202017487.demo.domain.model.entity;
+package com.ebsi657.marquinavichinoadrian202017487.ViaticoBC.domain.model.entity;
 
 import lombok.*;
 import javax.validation.constraints.NotBlank;

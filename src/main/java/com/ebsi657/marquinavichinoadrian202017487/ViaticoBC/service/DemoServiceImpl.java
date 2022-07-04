@@ -1,8 +1,8 @@
-package com.ebsi657.marquinavichinoadrian202017487.demo.service;
+package com.ebsi657.marquinavichinoadrian202017487.ViaticoBC.service;
 
-import com.ebsi657.marquinavichinoadrian202017487.demo.domain.persistence.DemoRepository;
-import com.ebsi657.marquinavichinoadrian202017487.demo.domain.service.DemoService;
-import com.ebsi657.marquinavichinoadrian202017487.demo.domain.model.entity.DemoEntity;
+import com.ebsi657.marquinavichinoadrian202017487.ViaticoBC.domain.persistence.DemoRepository;
+import com.ebsi657.marquinavichinoadrian202017487.ViaticoBC.domain.service.DemoService;
+import com.ebsi657.marquinavichinoadrian202017487.ViaticoBC.domain.model.entity.DemoEntity;
 import com.ebsi657.marquinavichinoadrian202017487.shared.exeption.ResourceNotFoundException;
 import com.ebsi657.marquinavichinoadrian202017487.shared.exeption.ResourceValidationException;
 import org.springframework.data.domain.Page;

@@ -1,6 +1,6 @@
-package com.ebsi657.marquinavichinoadrian202017487.demo.domain.service;
+package com.ebsi657.marquinavichinoadrian202017487.ViaticoBC.domain.service;
 
-import com.ebsi657.marquinavichinoadrian202017487.demo.domain.model.entity.DemoEntity;
+import com.ebsi657.marquinavichinoadrian202017487.ViaticoBC.domain.model.entity.DemoEntity;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.ResponseEntity;
