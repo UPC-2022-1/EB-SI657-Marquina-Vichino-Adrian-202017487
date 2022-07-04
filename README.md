@@ -4,6 +4,6 @@
 
 ### DB Credentials
 
-- JDBC URL: jdbc:h2:mem:eb-202017487
+- JDBC URL: jdbc:h2:file:./data/eb-202017487
 - Username: u202017487
 - Password: u202017487
